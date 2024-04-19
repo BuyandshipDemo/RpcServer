@@ -1,0 +1,3 @@
+kitexinfo:
+   ServiceName: 'example.helloworld.greet'
+   ToolVersion: 'v0.9.1'
