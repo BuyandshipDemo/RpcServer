@@ -1,4 +1,4 @@
-module RpcServer
+module github.com/BuyandshipDemo/RpcServer
 
 go 1.22.2
 
