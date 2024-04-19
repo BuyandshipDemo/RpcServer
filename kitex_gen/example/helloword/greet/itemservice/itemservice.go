@@ -3,7 +3,7 @@
 package itemservice
 
 import (
-	greet "RpcServer/kitex_gen/example/helloword/greet"
+	greet "github.com/BuyandshipDemo/RpcServer/kitex_gen/example/helloword/greet"
 	"context"
 	"errors"
 	client "github.com/cloudwego/kitex/client"

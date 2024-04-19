@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"RpcServer/dao/mysql"
-	"RpcServer/dao/redis"
+	"github.com/BuyandshipDemo/RpcServer/dao/mysql"
+	"github.com/BuyandshipDemo/RpcServer/dao/redis"
 )
 
 func init() {

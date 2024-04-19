@@ -1,7 +1,7 @@
 package mysql
 
 import (
-	"RpcServer/model"
+	"github.com/BuyandshipDemo/RpcServer/model"
 	"log"
 )
 

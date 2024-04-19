@@ -1,9 +1,9 @@
 package main
 
 import (
-	"RpcServer/dao/mysql"
-	"RpcServer/dao/redis"
-	greet "RpcServer/kitex_gen/example/helloword/greet"
+	"github.com/BuyandshipDemo/RpcServer/dao/mysql"
+	"github.com/BuyandshipDemo/RpcServer/dao/redis"
+	greet "github.com/BuyandshipDemo/RpcServer/kitex_gen/example/helloword/greet"
 	"context"
 	"log"
 

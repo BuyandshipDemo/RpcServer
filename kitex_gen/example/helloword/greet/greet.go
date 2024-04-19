@@ -3,7 +3,7 @@
 package greet
 
 import (
-	"RpcServer/kitex_gen/example/helloworld/base"
+	"github.com/BuyandshipDemo/RpcServer/kitex_gen/example/helloworld/base"
 	"context"
 	"fmt"
 	"github.com/apache/thrift/lib/go/thrift"

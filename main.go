@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "RpcServer/dao"
-	greet "RpcServer/kitex_gen/example/helloword/greet/itemservice"
+	_ "github.com/BuyandshipDemo/RpcServer/dao"
+	greet "github.com/BuyandshipDemo/RpcServer/kitex_gen/example/helloword/greet/itemservice"
 	"log"
 
 	"github.com/cloudwego/kitex/server"
@@ -25,19 +25,3 @@ func main() {
 		log.Println(err.Error())
 	}
 }
-
-// import (
-// 	"log"
-
-// 	greet "RpcServer/kitex_gen/example/helloword/greet/itemservice"
-// )
-
-// func main() {
-// 	svr := greet.NewServer(new(ItemServiceImpl))
-
-// 	err := svr.Run()
-
-// 	if err != nil {
-// 		log.Println(err.Error())
-// 	}
-// }
